@@ -14,6 +14,10 @@ header{
         background-color: #1E140D;
         width: 100%;
 }
+body{
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
 .logo{
     color:white;
     float: left;
@@ -49,7 +53,7 @@ nav button{
 }
 
 .content{
-    background-image: url("img/FB_IMG_17779183311045031.jpg");
+    background-image: url("img/foto8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 840px;
@@ -87,7 +91,7 @@ nav button{
     background-color: aliceblue;
     padding:10px;
     border-radius: 30px;
-    border: 5px solid #1E140D;
+    border: none;
     width: 310px;
     height:100px;
     transition: 3s;
