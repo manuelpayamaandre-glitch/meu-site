@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sigUp.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+    <div class="card">
+        <form action="">
+          <fieldset>
+            <input type="text" name="Nome" class="box" placeholder="Nome completo" >
+            <br><br>
+            <input type="email" name="email" class="box" placeholder="email">
+            <br><br>
+            <input type="tel" name="Telefone" class="box" placeholder="Telefone">
+            <p>Sexo</p>
+            <input type="radio" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+            <br><br>
+            <input type="radio" name="genero" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <br><br>
+            <label for="data_nascimento"><b>Data de Nascimento</b></label>
+            <input type="date" name="data_nascimento" >
+            <br><br>
+            <input type="text" name="cidade" class="box" placeholder="Cidade">
+            <br><br>
+            <input type="text" name="Endereco" class="box" placeholder="Endereço">
+            <br><br>
+              <button onclick="Enviar()">Se Cadastrar</button>
+          </fieldset> 
+        </form> 
+    <script src="projecto.js"></script>
+</body>
+</html>

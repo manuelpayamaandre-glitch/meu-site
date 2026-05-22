@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 99;
+        background-color: #1E140D;
+        width: 100%;
+}
+.logo{
+    color:white;
+    float: left;
+    margin-top: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul li a:hover{
+    transform: scale(1.2);
+    color: rgba(226, 154, 20, 0.718);
+    
+}
+nav button{
+    float: right;
+    margin-top: 15px;
+    background-color: #D89B00;
+    border-radius: 30px;
+    padding: 6px;
+    cursor: pointer;
+    
+}
+
+.content{
+    background-image: url("img/FB_IMG_17779183311045031.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 840px;
+}
+.card img{
+    height: 400px;
+    margin-top:10px;
+    border-radius: 10px;
+    transition: 1.5s;
+    cursor: pointer;
+
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.card p{
+    margin-top: 30px;
+    text-align: right 20%;
+    font-size: 16px;
+}
+.Projecto{
+    background-image:url("img/Gemini_Generated_Image_gdfbrygdfbrygdfb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1500px;
+    opacity:60;
+    
+}
+.cards p{
+    margin-top: 15px;
+}
+.container{
+    display: inline-block;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding:10px;
+    border-radius: 30px;
+    border: 5px solid #1E140D;
+    width: 310px;
+    height:100px;
+    transition: 3s;
+}
+.container:hover{
+ transform: translateY(-10px);
+ color: rgb(26, 26, 72);
+ cursor:pointer ;
+}
+.item img{
+    display: inline-block;
+    justify-content: space-between;
+    border-radius:10px;
+    height:400px;
+    width: 300px;
+    margin-top: 10px;
+    transition: 3s;
+    
+}
+.item img:hover{
+    transform: translateY(-10px);
+ color: rgb(26, 26, 72);
+ cursor:pointer ;
+}
+.roda{
+    background-color: #1E140D;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+@media(max-width:768px){
+    header{
+        position: static;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+        margin-top: 5px;
+    }
+    nav  ul li{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    nav button{
+        float: none;
+        display: block;
+        margin: 15px auto;
+    }
+    .container{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+
+    }
+    .card img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .item img{
+        width: 100%;
+        height: auto;
+        
+    }
+    .content{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .Projecto{
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
